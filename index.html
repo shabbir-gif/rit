@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @media only screen and (min-width:600px) and (max-width:2000px) {
+        .container {
+            width: auto;
+            display: grid;
+            grid-template-areas:
+                'header header header'
+                'nav nav nav'
+                'power power power'
+                'leval oval egg'
+                'footer footer footer';
+        }
+    }
+
+    @media only screen and (min-width:600px) and (max-width:900px) {
+        .item-7 {
+            grid-area: power;
+            height: 100px;
+            background-color: whitesmoke;
+            text-align: center;
+            font-size: medium;
+        }
+    }
+
+    .item-6 {
+        grid-area: header;
+        height: 140px;
+        background-color: greenyellow;
+        text-align: left;
+        font-size: large;
+    }
+
+    @media only screen and (min-width:600px) and (max-width:2000px) {
+        .item-1 {
+            grid-area: nav;
+            height: 355px;
+            width: 1450px;
+        }
+    }
+
+
+
+    @media only screen and (min-width:600px) and (max-width:900px) {
+        .item-2 {
+            grid-area: leval;
+            height: 40vh;
+            width: 500px;
+            background: ;
+            border: 1px;
+            margin-right: 150px;
+        }
+    }
+
+    @media only screen and (min-width:600px) and (max-width:900px) {
+        .item-3 {
+            grid-area: oval;
+            background-color: ;
+            border: ;
+            height: vh;
+            width: 300px;
+            margin-left: 100px;
+            margin-top: 00px;
+            margin-bottom: ;
+
+        }
+    }
+
+    @media only screen and (min-width:600px) and (max-width:900px) {
+
+        .item-4 {
+            grid-area: egg;
+            background-color: bisque;
+            border: 1px;
+            height: 40vh;
+            width: 450px;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: px;
+
+        }
+    }
+
+
+    .item-5 {
+        grid-area: footer;
+        background-color: greenyellow;
+        height: 80px;
+        text-align: center;
+        color: red;
+    }
+
+    img {
+        height: 350px;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+
+    h1 {
+        text-align: center;
+        font-size: x-large;
+        color: maroon;
+        animation-duration: 1000ms;
+        animation-name: blink;
+        animation-iteration-count: infinite;
+        animation-duration: alternate;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 0
+        }
+
+        100% {
+            opacity: 100
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item-6">
+            <h2>SYED SAMIUDDIN AHMAD </h2>
+            <p>Retired Govt Teacher</p>
+            <p>(Govt Of Bihar)</p>
+        </div>
+
+        <div class="item-1">
+            <img src="./assest/image/patna.jpeg">
+        </div>
+        <div class="item-7">
+            <h1>(Happy Retirement)</h1>
+            <p>Congratulations on your retirement as well as reaching to this milestone, May this new chapter be filled with all the happiness and relaxation you deserve.As well as well wishes for a relaxing and enjoyable retirement, I am deeply gratitude of your simplicity, hard work and your immense contributions in the field of education. Wishing you a happy and healthy retirement.Enjoy your well-deserved retirement!</p>
+        </div>
+
+        <div class="item-2">
+            <img src="./assest/image/fish.jpeg">
+        </div>
+        <div class="item-3">
+            <img src="./assest/image/house.jpeg">
+        </div>
+        <div class=" item-4">
+            <img src="./assest/image/star.jpeg">
+        </div>
+        <div class="item item-5">
+            <h3>SYED SHAH SHABBIR ALI HASNI</h3>
+            <p>(Software Developer-cum-AI Engineer)</p>
+            <p></p>
+        </div>
+
+</body>
+
+</html>
